@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Awalpane | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Panoramic background with explicit scroll sections -->
+    <div class="panorama-wrapper">
+        <div class="panorama-image" id="panoramaImage">
+            <!-- Using a wide panoramic image -->
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=5000&h=1080" alt="Panoramic Landscape">
+        </div>
+    </div>
+
+    <!-- Overlay for better text readability -->
+    <div class="overlay"></div>
+
+    <!-- Scroll indicator to show that scrolling works -->
+    <div class="scroll-indicator">
+        <span>Scroll to navigate</span>
+        <i class="fas fa-mouse"></i>
+    </div>
+
+    <div class="container">
+        <!-- Left side details section -->
+        <!-- <div class="details-section">
+            <div class="logo">
+                <h1>Mayank<span>.</span></h1>
+                <p class="user-info">@mayankawalpane | Last updated: 2025-08-31 16:25:52</p>
+            </div> -->
+            
+            <!-- <div class="details-content">
+                <div class="intro">
+                    <h2 class="animated-text">Creative Developer</h2>
+                    <p>I design and build digital experiences that people love.</p>
+                </div> -->
+                
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#about" class="menu-link active" data-section="about">About</a></li>
+                        <li><a href="#skills" class="menu-link" data-section="skills">Skills</a></li>
+                        <li><a href="#work" class="menu-link" data-section="work">Work</a></li>
+                        <li><a href="#contact" class="menu-link" data-section="contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- <div class="section-content" id="about-content">
+                    <h3>About Me</h3>
+                    <p>I'm a creative developer with a passion for building beautiful, functional digital experiences. With expertise in frontend development and UX/UI design, I create websites and applications that are both visually appealing and user-friendly.</p>
+                    <p>My approach combines technical skills with creative vision to deliver solutions that exceed expectations.</p>
+                </div>
+                 -->
+               
+                
+                <div class="section-content hidden" id="work-content">
+                    <h3></h3>
+                    <div class="work-info">
+                        <p> <strong></strong></p>
+                    </div>
+                </div>
+                
+                
+            
+          
+        
+        <!-- Right side project info -->
+        <!-- <div class="project-section">
+            <div class="project-details">
+                <div class="project-card active" data-index="0">
+                    <h3>Modern E-commerce Platform</h3>
+                    <p class="project-category">UX/UI Design, Frontend Development</p>
+                    <p class="project-description">A comprehensive e-commerce solution with advanced filtering, user authentication, and payment processing.</p>
+                    <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="project-card" data-index="1">
+                    <h3>Mobile Banking App</h3>
+                    <p class="project-category">Mobile Design, React Native</p>
+                    <p class="project-description">Secure banking application with biometric authentication, transaction history, and real-time notifications.</p>
+                    <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="project-card" data-index="2">
+                    <h3>Creative Agency Website</h3>
+                    <p class="project-category">Web Design, WordPress Development</p>
+                    <p class="project-description">Dynamic website for a creative agency featuring case studies, team profiles, and a custom project request system.</p>
+                    <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="project-card" data-index="3">
+                    <h3>Analytics Dashboard</h3>
+                    <p class="project-category">UI Design, Vue.js Development</p>
+                    <p class="project-description">Real-time analytics platform with customizable widgets, data visualization, and automated reporting features.</p>
+                    <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="project-card" data-index="4">
+                    <h3>Brand Identity Design</h3>
+                    <p class="project-category">Branding, Logo Design</p>
+                    <p class="project-description">Comprehensive brand identity including logo design, color palette, typography, and brand guidelines.</p>
+                    <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- Navigation controls -->
+    <div class="navigation-controls">
+        <div class="pagination-indicator">1 / 5</div>
+        <div class="nav-arrow prev-arrow"><i class="fas fa-chevron-left"></i></div>
+        <div class="nav-arrow next-arrow"><i class="fas fa-chevron-right"></i></div>
+    </div>
+
+    <!-- Section indicators -->
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
